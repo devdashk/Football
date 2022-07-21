@@ -104,6 +104,14 @@
 @media screen and (max-width: 688px) {
 
 
+    .bannerText {
+        width: 457px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
     .bannerText h1 {
         font-size: 25px;
         width: 280px;
@@ -115,6 +123,7 @@
         padding: 50px 25px;
         padding-bottom: 300px;
         text-align: center;
+        align-items: center;
     }
 
 
@@ -147,5 +156,11 @@
     footer a{
         font-size: 18px;
         margin-bottom: 20px;
+    }
+
+    .bannerImage img {
+        width: 251px;
+        bottom: 0;
+        left: 100px;
     }
 }
