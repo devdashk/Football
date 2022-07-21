@@ -68,7 +68,7 @@ section {
 /* SecSection */
 
 
-section.secSection {}
+
 
 .secSectionWrapper {
     display: flex;
@@ -206,4 +206,9 @@ footer a {
 a.active {
     background: #dd0000;
     color: #fff;
+}
+
+
+.hideButton{
+    display: none;
 }
